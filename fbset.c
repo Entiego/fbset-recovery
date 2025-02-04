@@ -1,7 +1,7 @@
 /*
  *  Linux Frame Buffer Device Configuration
  *
- *  © Copyright 1995-1999 by Geert Uytterhoeven
+ *  Â© Copyright 1995-1999 by Geert Uytterhoeven
  *		       (Geert.Uytterhoeven@cs.kuleuven.ac.be)
  *
  *  --------------------------------------------------------------------------
@@ -41,7 +41,7 @@ struct inode;
      *  Default Frame Buffer Special Device Node
      */
 
-#define DEFAULT_FRAMEBUFFER	"/dev/fb0"
+#define DEFAULT_FRAMEBUFFER	"/dev/graphics/fb0"
 
 
     /*
