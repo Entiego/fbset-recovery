@@ -35,9 +35,7 @@ modes.tab.c:    modes.y
 modes.tab.h:    modes.tab.c
 
 install:	fbset
-		@echo "The install option have been removed so"
-		@echo "that user wont install unsupported"
-		@echo "binary to their machine"
+		@echo "The install option have been removed so that user wont install unsupported binary to their machine"
 
 clean:
 	$(RM) *.o fbset lex.yy.c modes.tab.c modes.tab.h
